@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="textInputLayout">#96ffffff</color>
+    <color name="ALPHA_WHITE_80">#CCFFFFFF</color>
+    <color name="green">#42C83C</color>
+    <color name="black">#000000</color>
+    <color name="ALPHA_WHITE_60">#99FFFFFF</color>
+    <color name="grey">#FF333333</color>
+
+
+    //text color
+    <color name="green_text">#1ED760</color>
+    <color name="stroke_letter">#99FFFFFF</color>
+    <color name="yellow">#D7BD1E</color>
+
+    //gradient color
+    <color name="center_color">#00ffffff</color>
+    <color name="start_color">#F7000000</color>
+
+    //button color
+    <color name="green_button">#42C83C</color>
+    <color name="green_button_clicked">#0A8005</color>
+
+    //image color
+    <color name="stroke_image_ic_left">#42C83C</color>
+
+    <color name="yellow_view">#D7BD1E</color>
+
+    //bottom bar background color
+    <color name="bottom_nav_background">#333333</color>
+
+    //seekbar bg
+    <color name="seek_bar_bg">#A9A9A9</color>
+    <color name="little_black_color">#77000000</color>
+
+    <color name="control_bottom">#4C4A4A</color>
+
+    4C4A4A
+
+</resources>

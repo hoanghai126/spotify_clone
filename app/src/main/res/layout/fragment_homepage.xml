@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homepageLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.fragment.bottom_nav.HomepageFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarHomepage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/definite_dimen_80"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/icSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/definite_dimen_30"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_icon_left"
+            android:src="@drawable/ic_search"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/definite_dimen_40"
+            android:layout_gravity="center"
+            android:src="@drawable/spotify_logo"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/icSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/definite_dimen_30"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_icon_left"
+            android:src="@drawable/ic_setting"
+            tools:ignore="ContentDescription" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarHomepage">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/definite_dimen_200"
+                android:layout_marginStart="@dimen/definite_dimen_30"
+                android:layout_marginEnd="@dimen/definite_dimen_30"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <View
+                    android:id="@+id/bottomView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/custom_homepage_view"
+                    app:layout_constraintHeight_percent="0.87"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/topView" />
+
+                <ImageView
+                    android:id="@+id/imgLeftVector"
+                    android:layout_width="@dimen/definite_dimen_20"
+                    android:layout_height="@dimen/definite_dimen_30"
+                    android:layout_marginStart="@dimen/definite_dimen_20"
+                    android:src="@drawable/ic_vector_left"
+                    app:layout_constraintBottom_toBottomOf="@id/bottomView"
+                    app:layout_constraintStart_toStartOf="@id/bottomView"
+                    app:layout_constraintTop_toTopOf="@id/bottomView"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imgRightVector"
+                    android:layout_width="@dimen/definite_dimen_20"
+                    android:layout_height="@dimen/definite_dimen_30"
+                    android:layout_marginEnd="@dimen/definite_dimen_20"
+                    android:src="@drawable/ic_vector_right"
+                    app:layout_constraintBottom_toBottomOf="@id/bottomView"
+                    app:layout_constraintEnd_toEndOf="@id/bottomView"
+                    app:layout_constraintTop_toTopOf="@id/bottomView"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tvTypeSongHomepage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/definite_dimen_20"
+                    android:layout_marginTop="@dimen/definite_dimen_10"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Popular"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@id/tvSongNametHomepage"
+                    app:layout_constraintStart_toEndOf="@id/imgLeftVector"
+                    app:layout_constraintTop_toTopOf="@id/bottomView" />
+
+                <TextView
+                    android:id="@+id/tvSongNametHomepage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/definite_dimen_20"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Sisa Rasa"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_huge"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@id/tvArtistNameHomepage"
+                    app:layout_constraintStart_toEndOf="@id/imgLeftVector"
+                    app:layout_constraintTop_toBottomOf="@id/tvTypeSongHomepage" />
+
+                <TextView
+                    android:id="@+id/tvArtistNameHomepage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/definite_dimen_20"
+                    android:layout_marginBottom="@dimen/definite_dimen_10"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Mahalini"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_xnormal"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/bottomView"
+                    app:layout_constraintStart_toEndOf="@id/imgLeftVector"
+                    app:layout_constraintTop_toBottomOf="@id/tvSongNametHomepage" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="@dimen/definite_dimen_16"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/malhani"
+                    app:layout_constraintBottom_toBottomOf="@id/bottomView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/topView"
+                    tools:ignore="ContentDescription" />
+
+                <View
+                    android:id="@+id/topView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layout_constraintHeight_default="percent"
+                    app:layout_constraintHeight_percent="0.13"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tvTodayHit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/definite_dimen_30"
+                android:layout_marginTop="@dimen/definite_dimen_30"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/today_s_hits"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_xxlarge"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/layout1" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/definite_dimen_30"
+                android:layout_marginTop="@dimen/definite_dimen_16"
+                android:layout_marginEnd="@dimen/definite_dimen_30"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTodayHit" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/definite_dimen_50"
+                android:layout_marginStart="@dimen/definite_dimen_30"
+                android:layout_marginTop="@dimen/definite_dimen_30"
+                android:background="@color/colorPrimaryDark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rcvData"
+                app:tabIndicator="@drawable/bg_transparent"
+                app:tabIndicatorAnimationMode="elastic"
+                app:tabIndicatorGravity="stretch"
+                app:tabMode="scrollable"
+                app:tabPaddingEnd="@dimen/definite_dimen_30"
+                app:tabSelectedTextColor="@color/colorPrimary"
+                app:tabTextColor="@color/ALPHA_WHITE_60" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewpager2Homepage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/definite_dimen_30"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tabLayout" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

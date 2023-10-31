@@ -1,0 +1,77 @@
+{
+  "destinations": [
+    {
+      "flightNumber": "  13",
+      "departure": "SYD",
+      "arrival": "KUL",
+      "departureDateTime": "2019-04-15T20:45:00",
+      "arrivalDateTime": "2019-04-15T20:45:00",
+      "description": "You have a cabin baggage allowance of 10kg",
+      "ssrs": [
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/add-onbaggage-0kg.png?sfvrsn=9554f332_14",
+          "ssrCode": "MB0",
+          "displayName": "0MB",
+          "ssrDescription": "Description of 0MB",
+          "order": 1,
+          "paxFee": {
+            "feeCode": "MB0",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 0
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/20kg@3x.png?sfvrsn=81888a97_16",
+          "ssrCode": "MB20",
+          "displayName": "20MB",
+          "ssrDescription": "Description of 20MB",
+          "order": 1,
+          "paxFee": {
+            "feeCode": "MB20",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 20
+            }
+          },
+          "passengers": [
+            0
+          ]
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/30kg@3x.png?sfvrsn=29a529c5_16",
+          "ssrCode": "MB30",
+          "displayName": "30MB",
+          "ssrDescription": "Description of 30MB",
+          "order": 2,
+          "paxFee": {
+            "feeCode": "MB30",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 30
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/35kg@3x.png?sfvrsn=c4990f30_16",
+          "ssrCode": "MB40",
+          "displayName": "40MB",
+          "ssrDescription": "Description of 40MB",
+          "order": 3,
+          "paxFee": {
+            "feeCode": "MB40",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 40
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

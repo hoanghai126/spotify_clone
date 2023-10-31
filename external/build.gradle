@@ -1,0 +1,70 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion buildConfig.compileSdk
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        minSdkVersion buildConfig.minSdk
+        targetSdkVersion buildConfig.targetSdk
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+    }
+
+    dependencies {
+        implementation deps.kotlin.stdlib.jdk8
+        implementation deps.androidx.core
+        implementation deps.kotlin.coroutines.jdk8
+        implementation deps.dagger.android
+        implementation deps.dagger.androidSupport
+        implementation deps.trustkit
+        implementation deps.certificateTransparency
+        implementation deps.retrofit.rx
+        implementation deps.okhttp.client
+        implementation deps.okhttp.logging
+        implementation project(':domain')
+        api deps.retrofit.client
+        implementation deps.retrofit.gson
+        api deps.google.gson
+        implementation 'com.google.firebase:firebase-firestore:24.1.1'
+        implementation 'com.google.firebase:firebase-auth-ktx:22.1.0'
+        testImplementation deps.junit
+
+        implementation deps.appcompatv7
+        implementation deps.playServicesAuth
+        implementation deps.easypermissions
+
+        implementation('com.google.api-client:google-api-client-android:1.22.0') {
+            exclude group: 'org.apache.httpcomponents'
+            exclude group: 'com.google.guava'
+        }
+        implementation('com.google.apis:google-api-services-youtube:v3-rev183-1.22.0') {
+            exclude group: 'org.apache.httpcomponents'
+            exclude group: 'com.google.guava'
+        }
+        kapt deps.dagger.compiler
+        kapt deps.dagger.androidProcessor
+
+    }
+
+
+    buildscript {
+        repositories {
+            mavenCentral()
+            maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+        }
+        dependencies {
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+        }
+    }
+}

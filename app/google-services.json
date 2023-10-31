@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172125884871",
+    "project_id": "spotify-redesign-mock",
+    "storage_bucket": "spotify-redesign-mock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172125884871:android:740f9c83369263e64f89e2",
+        "android_client_info": {
+          "package_name": "com.example.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172125884871-9mm479c26vca4c7ligu4lol8a4q2u6hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4O23-qa55HHh6DjhWGBidkFpISM8tPRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172125884871-9mm479c26vca4c7ligu4lol8a4q2u6hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

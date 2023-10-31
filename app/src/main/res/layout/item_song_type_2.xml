@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/definite_dimen_12"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <FrameLayout
+        android:id="@+id/imgLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgSong"
+            android:layout_width="@dimen/definite_dimen_64"
+            android:layout_height="@dimen/definite_dimen_64"
+            android:scaleType="center"
+            app:shapeAppearanceOverlay="@style/roundCornerAlbum" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvSongName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/definite_dimen_12"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintBottom_toTopOf="@id/tvArtistName"
+        app:layout_constraintStart_toEndOf="@+id/line"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvArtistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/definite_dimen_12"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/line"
+        app:layout_constraintTop_toBottomOf="@id/tvSongName" />
+
+    <ImageView
+        android:id="@+id/more_vertical"
+        android:layout_width="@dimen/definite_dimen_20"
+        android:layout_height="@dimen/definite_dimen_20"
+        android:src="@drawable/ic_more_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+{
+  "addons": [
+    {
+      "id": "BAGGAGE",
+      "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/MBE-Add-On/scootinstyle-3hours.png?sfvrsn=9d634ef6_12",
+      "displayName": "Baggage",
+      "description": "Buy now and SAVE at least 30%!",
+      "startingPrice": 7.00000,
+      "currency": "SGD",
+      "order": "1"
+    },
+    {
+      "id": "SEATS",
+      "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/MBE-Add-On/scootinstyle-3hours.png?sfvrsn=9d634ef6_12",
+      "displayName": "Seats",
+      "description": "Want a quiet flight or extra legroom?",
+      "startingPrice": 7.00000,
+      "currency": "SGD",
+      "order": "2"
+    },
+    {
+      "id": "MEAL",
+      "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/MBE-Add-On/scootinstyle-3hours.png?sfvrsn=9d634ef6_12",
+      "displayName": "Meals",
+      "description": "Order now and enjoy greater savings!",
+      "startingPrice": 7.00000,
+      "currency": "SGD",
+      "order": "3"
+    },
+    {
+      "id": "WIFI",
+      "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/MBE-Add-On/scootinstyle-3hours.png?sfvrsn=9d634ef6_12",
+      "displayName": "Wifi",
+      "description": "Starting from {starting_price}",
+      "startingPrice": 7.00000,
+      "currency": "SGD",
+      "order": "4"
+    },
+    {
+      "id": "SCOOTINSTYLE",
+      "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/MBE-Add-On/scootinstyle-3hours.png?sfvrsn=9d634ef6_12",
+      "displayName": "Scoot-in-Style",
+      "description": "{starting_price} per passenger",
+      "startingPrice": 7.00000,
+      "currency": "SGD",
+      "order": "5"
+    }
+  ]
+}

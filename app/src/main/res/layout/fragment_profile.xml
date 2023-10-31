@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/definite_dimen_80"
+        android:background="@color/bottom_nav_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/profile"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_xlarge" />
+
+        <ImageView
+            android:id="@+id/icMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/definite_dimen_30"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_more_horizontal"
+            tools:ignore="ContentDescription" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/background_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_profile"
+                android:paddingTop="@dimen/definite_dimen_50"
+                android:paddingBottom="@dimen/definite_dimen_24"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <FrameLayout
+                    android:id="@+id/imgLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imgAlbum"
+                        android:layout_width="@dimen/definite_dimen_96"
+                        android:layout_height="@dimen/definite_dimen_96"
+                        android:scaleType="center"
+                        android:src="@drawable/image_not_available"
+                        app:shapeAppearanceOverlay="@style/roundCornerAlbum" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tvProfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/definite_dimen_20"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_xnormal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgLayout" />
+
+                <TextView
+                    android:id="@+id/tvProfileMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/definite_dimen_12"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvProfileName" />
+
+                <TextView
+                    android:id="@+id/tvFollowers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/definite_dimen_32"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/followers"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_normal"
+                    app:layout_constraintEnd_toStartOf="@id/tvFollowing"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvProfileMail" />
+
+                <TextView
+                    android:id="@+id/tvFollowing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/definite_dimen_32"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/following"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/tvFollowers"
+                    app:layout_constraintTop_toBottomOf="@+id/tvProfileMail" />
+
+                <TextView
+                    android:id="@+id/tvNumberFollower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="129"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_xxnormal"
+                    app:layout_constraintEnd_toEndOf="@+id/tvFollowers"
+                    app:layout_constraintStart_toStartOf="@+id/tvFollowers"
+                    app:layout_constraintTop_toBottomOf="@+id/tvFollowers"
+                    tools:layout_editor_absoluteY="274dp" />
+
+                <TextView
+                    android:id="@+id/numberFollowing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="238"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xxnormal"
+                    app:layout_constraintEnd_toEndOf="@+id/tvFollowing"
+                    app:layout_constraintStart_toStartOf="@+id/tvFollowing"
+                    app:layout_constraintTop_toBottomOf="@+id/tvFollowing"
+                    tools:layout_editor_absoluteY="274dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tvFindFriends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/definite_dimen_6"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/find_friend"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_normal"
+                app:layout_constraintEnd_toEndOf="@id/imgFindFriend"
+                app:layout_constraintStart_toStartOf="@id/imgFindFriend"
+                app:layout_constraintTop_toBottomOf="@id/imgFindFriend" />
+
+
+            <ImageView
+                android:id="@+id/imgFindFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/definite_dimen_24"
+                android:src="@drawable/findfriend_button"
+                app:layout_constraintEnd_toStartOf="@id/imgShare"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/background_profile"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imgShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/definite_dimen_24"
+                android:src="@drawable/ic_share"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tvFindFriends"
+                app:layout_constraintTop_toBottomOf="@id/background_profile"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/definite_dimen_6"
+                android:fontFamily="@font/montserrat"
+                android:text="Share"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"
+                app:layout_constraintEnd_toEndOf="@id/imgShare"
+                app:layout_constraintStart_toStartOf="@id/imgShare"
+                app:layout_constraintTop_toBottomOf="@id/imgShare"
+
+                />
+
+            <ImageView
+                android:id="@+id/blur_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/definite_dimen_20"
+                android:layout_marginTop="@dimen/definite_dimen_5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvFindFriends"
+                app:srcCompat="@drawable/blur_bar_mps"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tvMostlyPlayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/definite_dimen_32"
+                android:layout_marginTop="@dimen/definite_dimen_20"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/mostly_played"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_large"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/blur_bar" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_mps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/definite_dimen_32"
+                android:layout_marginTop="@dimen/definite_dimen_12"
+                android:paddingBottom="@dimen/definite_dimen_32"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvMostlyPlayed"
+
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

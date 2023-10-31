@@ -1,0 +1,140 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.gms.google-services'
+}
+
+
+android {
+    compileSdkVersion buildConfig.compileSdk
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.example.android"
+        minSdkVersion buildConfig.minSdk
+        targetSdkVersion buildConfig.targetSdk
+        versionCode buildConfig.version.code
+        versionName buildConfig.version.name
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+    buildTypes {
+        debug {
+            testCoverageEnabled = true
+            debuggable true
+            ext.alwaysUpdateBuildId = false
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    dexOptions {
+        preDexLibraries true
+    }
+
+    kapt {
+        useBuildCache true
+    }
+
+    dexOptions {
+        preDexLibraries true
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+        freeCompilerArgs += [
+            "-Xuse-experimental=kotlinx.coroutines.ExperimentalCoroutinesApi",
+            "-Xuse-experimental=kotlinx.coroutines.ObsoleteCoroutinesApi"
+        ]
+    }
+
+    sourceSets {
+        androidTest {
+            java.srcDir file('src/androidTest/java')
+            java.srcDir file('src/androidTest/kotlin')
+        }
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    testOptions {
+        animationsDisabled true
+
+        unitTests {
+            includeAndroidResources = true
+            returnDefaultValues = true
+        }
+    }
+    lintOptions {
+        textReport true
+        textOutput 'stdout'
+        lintConfig rootProject.file('lint.xml')
+        disable 'NullSafeMutableLiveData'
+
+        checkDependencies true
+        checkTestSources true
+        explainIssues false
+
+        checkReleaseBuilds false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
+    implementation deps.kotlin.stdlib.jdk8
+    implementation deps.kotlin.coroutines.jdk8
+    implementation deps.kotlin.coroutines.android
+    implementation deps.material
+    implementation deps.flexbox
+    implementation project(':domain')
+    implementation project(':external')
+
+    testImplementation deps.junit
+    testImplementation deps.androidx.test.testingCore
+    testImplementation deps.androidx.test.testingCoroutine
+    testImplementation deps.mockk
+    testImplementation deps.json
+    implementation deps.trustkit
+
+    androidTestImplementation deps.androidx.test.runner
+    androidTestImplementation deps.androidx.test.rules
+
+    implementation deps.androidx.core
+    implementation deps.androidx.legacy.v4
+    implementation deps.androidx.appCompat
+    implementation deps.androidx.lifecycle.extensions
+    implementation deps.androidx.lifecycle.java8
+    implementation deps.androidx.lifecycle.livedata
+    implementation deps.androidx.lifecycle.viewmodel
+    implementation deps.androidx.constraintLayout
+    implementation deps.androidx.browser
+    implementation deps.androidx.viewpager2
+    implementation deps.androidx.navigation.fragment
+    implementation deps.androidx.navigation.ui
+    implementation deps.lottie
+    implementation deps.glide
+    implementation 'com.google.firebase:firebase-firestore:24.7.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:22.1.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    kapt deps.dagger.compiler
+    kapt deps.dagger.androidProcessor
+    implementation deps.dagger.android
+    implementation deps.dagger.androidSupport
+
+    implementation deps.youtubeExtractor
+    androidTestImplementation deps.junitExt
+
+
+}

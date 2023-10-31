@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Mock Spotify</string>
+    <string name="sign_up_free">Sign up free</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_phone_number">Continue with phone number</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="log_in">Log in</string>
+    <string name="click_here">Click Here</string>
+    <string name="if_you_need_any_support_click_here">If You Need Any Support</string>
+    <string name="enter_username_or_email">Enter Username or email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or">Or</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="register">Register</string>
+    <string name="have_an_account">Have An Account?</string>
+    <string name="full_name">Full name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="repeat_password">Repeat Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="playlist">Playlist</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="today_s_hits">Today\'s hits</string>
+    <string name="description_app">Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. </string>
+    <string name="app_name_get_started">Music for everyone</string>
+    <string name="monthly_listeners">Monthly listeners</string>
+    <string name="profil">Profile</string>
+
+    <string name="number_of_follower">12,7K</string>
+    <string name="number_of_monthly_listerners">4,88M</string>
+    <string name="name_of_artist">Tolus</string>
+    <string name="name_of_album">Manusia</string>
+    <string name="year_album_release">2022</string>
+    <string name="song_name">Hati-Hati di Jalan</string>
+
+    <string name="tv_now_playing">Now Playing</string>
+    <string name="tv_singer_name">Sisa Rasa</string>
+    <string name="tv_first_name">Mahalini</string>
+    <string name="tv_lyric_up">Lyrics</string>
+
+    <string name="get_started">Get Started</string>
+    <string name="follow">Follow</string>
+    <string name="followers">Followers</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="choose_mode">Choose mode</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="light_mode">Light mode</string>
+    <string name="btn_continue">Continue</string>
+    <string name="following">Following</string>
+    <string name="find_friend">Find friend</string>
+    <string name="mostly_played">Mostly Played</string>
+    <string name="today">Today</string>
+    <string name="see_all">See all</string>
+    <string name="yesterday">Yesterday</string>
+</resources>

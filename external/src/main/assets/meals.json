@@ -1,0 +1,297 @@
+{
+  "legs": [
+    {
+      "flightNumber": "TR 868",
+      "departure": "SIN",
+      "arrival": "DMK",
+      "categoriesLegend": [
+        {
+          "displayName": "Halal",
+          "itemCode": "halal",
+          "order": "1"
+        },
+        {
+          "displayName": "Vegetarian",
+          "itemCode": "vegetarian",
+          "order": "2"
+        },
+        {
+          "displayName": "Spicy",
+          "itemCode": "spicy",
+          "order": "3"
+        }
+      ],
+      "meals": [
+        {
+          "mealType": "Hot",
+          "displayName": "HOT MEALS",
+          "description": "",
+          "combo": {
+            "displayName": "",
+            "img": ""
+          },
+          "order": "2",
+          "items": [
+            {
+              "ssr": "VLML",
+              "mealSSRCode": true,
+              "displayName": "Alfredo Spinach Fusilli",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/vlml.jpg",
+              "categories": {
+                "halal": true,
+                "vegetarian": true,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "SPML",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 17.0000000
+                }
+              }
+            },
+            {
+              "ssr": "VJML",
+              "mealSSRCode": true,
+              "displayName": "Madras Curry with Basmati Rice (Veg)",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/vjml.jpg",
+              "categories": {
+                "halal": true,
+                "vegetarian": true,
+                "spicy": true
+              },
+              "paxFee": {
+                "feeCode": "SPML",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 17.0000000
+                }
+              }
+            },
+            {
+              "ssr": "MC05",
+              "mealSSRCode": true,
+              "displayName": "Roasted Chicken Thigh with Honey Garlic Sauce",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/mc05.jpg",
+              "categories": {
+                "halal": false,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "MEAL",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 17.0000000
+                }
+              }
+            },
+            {
+              "ssr": "MC04",
+              "mealSSRCode": true,
+              "displayName": "Stewed Beef Brisket with Oriental Spice",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/mc04.jpg",
+              "categories": {
+                "halal": false,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "MEAL",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 17.0000000
+                }
+              }
+            },
+            {
+              "ssr": "MC03",
+              "mealSSRCode": true,
+              "displayName": "Chicken Tikka Masala with Jeera Pulao",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/mc03.jpg",
+              "categories": {
+                "halal": false,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "MEAL",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 17.0000000
+                }
+              }
+            },
+            {
+              "ssr": "MC02",
+              "mealSSRCode": true,
+              "displayName": "Stewed Chicken with Rice",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/mc02.jpg",
+              "categories": {
+                "halal": false,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "MSIG",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 17.0000000
+                }
+              }
+            },
+            {
+              "ssr": "MC01",
+              "mealSSRCode": true,
+              "displayName": "Signature Nasi Lemak",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/mc01.jpg",
+              "categories": {
+                "halal": true,
+                "vegetarian": false,
+                "spicy": true
+              },
+              "paxFee": {
+                "feeCode": "MSIG",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 17.0000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mealType": "Light",
+          "displayName": "LIGHT MEALS",
+          "description": "",
+          "combo": {
+            "displayName": "",
+            "img": ""
+          },
+          "order": "3",
+          "items": [
+            {
+              "ssr": "MS03",
+              "mealSSRCode": true,
+              "displayName": "Wholemeal Tortilla wth Quinoa and Marinated1 Mixed Capsicum",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/ms03.jpg",
+              "categories": {
+                "halal": true,
+                "vegetarian": true,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "SWCH",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 15.0000000
+                }
+              }
+            },
+            {
+              "ssr": "MS02",
+              "mealSSRCode": true,
+              "displayName": "Teriyaki Chicken Wrap with Shimeiji Mushrooms",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/ms02.jpg",
+              "categories": {
+                "halal": true,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "SWCH",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 15.0000000
+                }
+              }
+            },
+            {
+              "ssr": "MS01",
+              "mealSSRCode": true,
+              "displayName": "Chicken Ham & Cheese Croissants",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/ms01.jpg",
+              "categories": {
+                "halal": true,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "SWCH",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 15.0000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "mealType": "Misc",
+          "displayName": "MISC.",
+          "description": "",
+          "combo": {
+            "displayName": "",
+            "img": ""
+          },
+          "order": "4",
+          "items": [
+            {
+              "ssr": "CAK2",
+              "mealSSRCode": false,
+              "displayName": "Celebration Cake combo with Alcoholic Drinks",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/cak2.jpg",
+              "categories": {
+                "halal": false,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "CAK2",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 36.0000000
+                }
+              }
+            },
+            {
+              "ssr": "CAK1",
+              "mealSSRCode": false,
+              "displayName": "Celebration Cake combo with non-Alcoholic drinks",
+              "img": "https://cdn.flyscoot.com/prod/images/default-source/meals/new/cak1.jpg",
+              "categories": {
+                "halal": false,
+                "vegetarian": false,
+                "spicy": false
+              },
+              "paxFee": {
+                "feeCode": "CAK1",
+                "serviceCharge": {
+                  "chargeType": "ServiceCharge",
+                  "currencyCode": "SGD",
+                  "amount": 29.0000000
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "routeMultipleMeals": {
+        "allowedUpTo": 1,
+        "requiredToSelect": 0,
+        "requiredOverWritten": false
+      }
+    }
+  ]
+}

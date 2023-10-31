@@ -1,0 +1,28 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+
+    implementation deps.retrofit.gson
+    implementation deps.kotlin.stdlib.jdk8
+    implementation deps.kotlin.coroutines.jdk8
+    implementation deps.dagger.runtime
+
+    testImplementation deps.junit
+    testImplementation deps.mockk
+    testImplementation deps.androidx.test.testingCore
+    testImplementation deps.androidx.test.testingCoroutine
+
+    kapt deps.dagger.compiler
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+    }
+}

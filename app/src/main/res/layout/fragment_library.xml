@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.fragment.bottom_nav.HomepageFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/definite_dimen_80"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/icSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/definite_dimen_30"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_icon_left"
+            android:src="@drawable/ic_search"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/definite_dimen_40"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="Playlist"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_large" />
+
+        <ImageView
+            android:id="@+id/icSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/definite_dimen_30"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_icon_left"
+            android:src="@drawable/ic_add"
+            tools:ignore="ContentDescription" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/definite_dimen_30"
+        android:layout_marginTop="@dimen/definite_dimen_30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarPlaylist" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

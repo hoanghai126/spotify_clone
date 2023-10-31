@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.fragment.login.SignUpFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/definite_dimen_80"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/definite_dimen_40"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/definite_dimen_8"
+            android:layout_marginEnd="@dimen/definite_dimen_8"
+            android:src="@drawable/spotify_logo"
+            tools:ignore="ContentDescription" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:foreground="@drawable/blur_overlay"
+        android:src="@drawable/background_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/layoutButtonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/definite_dimen_40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tvSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/definite_dimen_30"
+            android:layout_marginEnd="@dimen/definite_dimen_30"
+            android:layout_marginBottom="@dimen/definite_dimen_10"
+            android:background="@drawable/blue_button_state"
+            android:fontFamily="@font/montserrat"
+            android:paddingTop="@dimen/definite_dimen_16"
+            android:paddingBottom="@dimen/definite_dimen_16"
+            android:text="@string/sign_up_free"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_xnormal"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tvContinuePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSignUp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/definite_dimen_30"
+            android:layout_marginEnd="@dimen/definite_dimen_30"
+            android:layout_marginBottom="@dimen/definite_dimen_10"
+            android:background="@drawable/black_button_state"
+            android:drawableStart="@drawable/ic_phone"
+            android:fontFamily="@font/montserrat"
+            android:paddingStart="@dimen/definite_dimen_30"
+            android:paddingTop="@dimen/definite_dimen_16"
+            android:paddingBottom="@dimen/definite_dimen_16"
+            android:text="@string/continue_with_phone_number"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry,UseCompatTextViewDrawableXml" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tvContinueGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContinuePhone"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/definite_dimen_30"
+            android:layout_marginEnd="@dimen/definite_dimen_30"
+            android:layout_marginBottom="@dimen/definite_dimen_10"
+            android:background="@drawable/black_button_state"
+            android:drawableStart="@drawable/ic_google"
+            android:fontFamily="@font/montserrat"
+            android:paddingStart="@dimen/definite_dimen_30"
+            android:paddingTop="@dimen/definite_dimen_16"
+            android:paddingBottom="@dimen/definite_dimen_16"
+            android:text="@string/continue_with_google"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry,UseCompatTextViewDrawableXml" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tvContinueFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContinueGoogle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/definite_dimen_30"
+            android:layout_marginEnd="@dimen/definite_dimen_30"
+            android:layout_marginBottom="@dimen/definite_dimen_10"
+            android:background="@drawable/black_button_state"
+            android:drawableStart="@drawable/ic_fb"
+            android:fontFamily="@font/montserrat"
+            android:paddingStart="@dimen/definite_dimen_30"
+            android:paddingTop="@dimen/definite_dimen_16"
+            android:paddingBottom="@dimen/definite_dimen_16"
+            android:text="@string/continue_with_facebook"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry,UseCompatTextViewDrawableXml" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tvLoginInSignUpLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContinueFacebook"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/definite_dimen_16"
+            android:background="@drawable/black_button_state"
+            android:text="@string/log_in"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_xxnormal"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

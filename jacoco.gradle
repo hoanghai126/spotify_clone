@@ -1,0 +1,82 @@
+apply plugin: 'jacoco'
+
+import java.time.*
+
+gradle.taskGraph.beforeTask { Task task ->
+    task.ext.setProperty("startTime", Instant.now())
+}
+
+gradle.taskGraph.afterTask { Task task, TaskState state ->
+    println task.name + " took " + Duration.between(task.ext.startTime, Instant.now()).toSeconds() + " seconds"
+}
+
+jacoco {
+    toolVersion = '0.8.6'
+    reportsDir = file("$buildDir/reports/coverage")
+}
+
+tasks.withType(Test) {
+    jacoco.includeNoLocationClasses = true
+    jacoco.excludes = ['jdk.internal.*'] // see related issue https://github.com/gradle/gradle/issues/5184#issuecomment-457865951
+}
+
+def exclude = ['**/databinding/**/*.*',
+               '**/BR.*',
+               '**/R.*',
+               '**/R$*.*',
+               '**/BuildConfig.*',
+               '**/Manifest*.*',
+               '**/*_MembersInjector.*',
+               '**/Dagger*Component.*',
+               '**/Dagger*Component$Builder.*',
+               '**/*Module_*Factory.*',
+               '**/*Fragment.*',
+               '**/*Activity.*',
+               '**/*Activity*.*',
+               '**/*Adapter*.*',
+               '**/*ViewPager*.*',
+               '**/*ViewHolder*.*',
+               '**/*Module*.*',
+               '**/*InjectAdapter*.*',
+               '**/*StaticInjection*.*',
+               '**/*ModuleAdapter*.*',
+               '**/*ViewState*.*',
+               '**/*Provider*.*',
+               '**/*Holder*.*',
+               '**/*PickerDialog*.*',
+               '**/*ViewModel_Factory.*']
+
+task jacocoTestReport(type: JacocoReport, dependsOn: ['testDevinhouseDebugUnitTest']) {
+    reports {
+        html.enabled = true
+        xml.enabled = true
+        csv.enabled = false
+    }
+
+    def debugTree = fileTree(dir: "$project.buildDir/tmp/kotlin-classes/devinhouseDebug", excludes: exclude).filter ({file -> !file.name.contains('Fragment')})
+    def mainSrc = "$project.projectDir/src/main/java"
+
+    sourceDirectories.setFrom(files([mainSrc]))
+    classDirectories.setFrom(files([debugTree]))
+    executionData.setFrom(fileTree(dir: project.buildDir, includes: [
+            'jacoco/testDevinhouseDebugUnitTest.exec'
+    ]))
+}
+
+// Generate Unit test coverage
+task jacocoUnitTestReport(type: JacocoReport, dependsOn: ['testDevinhouseDebugUnitTest']) {
+    reports {
+        html.enabled = true
+        xml.enabled = true
+        csv.enabled = false
+    }
+
+    def debugTree = fileTree(dir: "$project.buildDir/tmp/kotlin-classes/devinhouseDebug", excludes: exclude).filter ({file -> !file.name.contains('Fragment')})
+    def mainSrc = "$project.projectDir/src/main/java"
+
+    sourceDirectories.setFrom(files([mainSrc]))
+    classDirectories.setFrom(files([debugTree]).filter({file -> file.name.contains('ViewModel')}))
+    executionData.setFrom(fileTree(dir: project.buildDir, includes: [
+            'jacoco/testDevinhouseDebugUnitTest.exec'
+    ]))
+}

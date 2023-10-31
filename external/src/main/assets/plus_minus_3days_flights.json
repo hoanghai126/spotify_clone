@@ -1,0 +1,2206 @@
+{
+  "departures": [
+    {
+      "date": "2019-04-22T00:00:00",
+      "lowestFare": {
+        "currency": "SGD",
+        "amount": 65.5,
+        "discountedAmount": 30.5
+      },
+      "flights": [
+        {
+          "journeyInfo": {
+            "key": "TR~ 616~ ~~SIN~04/22/2019 18:00~BKK~04/22/2019 19:25~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": true,
+            "seatLeft": 10,
+            "isPromotion": false,
+            "durationInMin": 145,
+            "firstSegFirstLegDeparture": "2019-04-22T18:00:00",
+            "lastSegFirstLegDeparture": "2019-04-22T18:00:00",
+            "lastSegLastLegDeparture": "2019-04-22T18:00:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567312",
+              "flightNumber": "TR 616",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 145,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-22T18:00:00",
+              "arrivalDateTime": "2019-04-22T19:25:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 868~ ~~SIN~04/22/2019 22:20~DMK~04/22/2019 23:45~~",
+            "departure": "SIN",
+            "arrival": "DMK",
+            "isLimited": true,
+            "seatLeft": 9,
+            "isPromotion": false,
+            "durationInMin": 145,
+            "firstSegFirstLegDeparture": "2019-04-22T22:20:00",
+            "lastSegFirstLegDeparture": "2019-04-22T22:20:00",
+            "lastSegLastLegDeparture": "2019-04-22T22:20:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "price": {
+                "currency": "SGD",
+                "amount": 176.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 90.0
+              },
+              "fareSalesKeys": [
+                "0~D~ ~TR~D0TRA~1000~~0~25~~X"
+              ],
+              "isAvailableForSale": true
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567332",
+              "flightNumber": "TR 868",
+              "departure": "SIN",
+              "arrival": "DMK",
+              "aircraftType": "B787-9",
+              "durationInMin": 145,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-22T22:20:00",
+              "arrivalDateTime": "2019-04-22T23:45:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 608~ ~~SIN~04/22/2019 06:30~BKK~04/22/2019 08:00~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": false,
+            "seatLeft": 12,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-22T06:30:00",
+            "lastSegFirstLegDeparture": "2019-04-22T06:30:00",
+            "lastSegLastLegDeparture": "2019-04-22T06:30:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567308",
+              "flightNumber": "TR 608",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-22T06:30:00",
+              "arrivalDateTime": "2019-04-22T08:00:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 606~ ~~SIN~04/22/2019 08:20~BKK~04/22/2019 09:50~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": false,
+            "seatLeft": 13,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-22T08:20:00",
+            "lastSegFirstLegDeparture": "2019-04-22T08:20:00",
+            "lastSegLastLegDeparture": "2019-04-22T08:20:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 108.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~W1~ ~TR~W1TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 132.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~W2~ ~TR~W2TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 149.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~W3~ ~TR~W3TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567306",
+              "flightNumber": "TR 606",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-22T08:20:00",
+              "arrivalDateTime": "2019-04-22T09:50:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 610~ ~~SIN~04/22/2019 15:25~BKK~04/22/2019 16:55~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": false,
+            "seatLeft": 12,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-22T15:25:00",
+            "lastSegFirstLegDeparture": "2019-04-22T15:25:00",
+            "lastSegLastLegDeparture": "2019-04-22T15:25:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567310",
+              "flightNumber": "TR 610",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-22T15:25:00",
+              "arrivalDateTime": "2019-04-22T16:55:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 604~ ~~SIN~04/22/2019 12:55~BKK~04/22/2019 14:35~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": true,
+            "seatLeft": 5,
+            "isPromotion": false,
+            "durationInMin": 160,
+            "firstSegFirstLegDeparture": "2019-04-22T12:55:00",
+            "lastSegFirstLegDeparture": "2019-04-22T12:55:00",
+            "lastSegLastLegDeparture": "2019-04-22T12:55:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567304",
+              "flightNumber": "TR 604",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 160,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-22T12:55:00",
+              "arrivalDateTime": "2019-04-22T14:35:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2019-04-23T00:00:00",
+      "lowestFare": {
+        "currency": "SGD",
+        "amount": 45.5,
+        "discountedAmount": 25.5
+      },
+      "flights": [
+        {
+          "journeyInfo": {
+            "key": "TR~ 616~ ~~SIN~04/23/2019 18:00~BKK~04/23/2019 19:25~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": false,
+            "seatLeft": 11,
+            "isPromotion": false,
+            "durationInMin": 145,
+            "firstSegFirstLegDeparture": "2019-04-23T18:00:00",
+            "lastSegFirstLegDeparture": "2019-04-23T18:00:00",
+            "lastSegLastLegDeparture": "2019-04-23T18:00:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567457",
+              "flightNumber": "TR 616",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 145,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-23T18:00:00",
+              "arrivalDateTime": "2019-04-23T19:25:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 868~ ~~SIN~04/23/2019 22:20~DMK~04/23/2019 23:45~~",
+            "departure": "SIN",
+            "arrival": "DMK",
+            "isLimited": false,
+            "seatLeft": 15,
+            "isPromotion": false,
+            "durationInMin": 145,
+            "firstSegFirstLegDeparture": "2019-04-23T22:20:00",
+            "lastSegFirstLegDeparture": "2019-04-23T22:20:00",
+            "lastSegLastLegDeparture": "2019-04-23T22:20:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "price": {
+                "currency": "SGD",
+                "amount": 176.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 90.0
+              },
+              "fareSalesKeys": [
+                "0~D~ ~TR~D0TRA~1000~~0~25~~X"
+              ],
+              "isAvailableForSale": true
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567476",
+              "flightNumber": "TR 868",
+              "departure": "SIN",
+              "arrival": "DMK",
+              "aircraftType": "B787-9",
+              "durationInMin": 145,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-23T22:20:00",
+              "arrivalDateTime": "2019-04-23T23:45:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 608~ ~~SIN~04/23/2019 06:30~BKK~04/23/2019 08:00~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": false,
+            "seatLeft": 12,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-23T06:30:00",
+            "lastSegFirstLegDeparture": "2019-04-23T06:30:00",
+            "lastSegLastLegDeparture": "2019-04-23T06:30:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567453",
+              "flightNumber": "TR 608",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A319",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-23T06:30:00",
+              "arrivalDateTime": "2019-04-23T08:00:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 606~ ~~SIN~04/23/2019 08:20~BKK~04/23/2019 09:50~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": true,
+            "seatLeft": 5,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-23T08:20:00",
+            "lastSegFirstLegDeparture": "2019-04-23T08:20:00",
+            "lastSegLastLegDeparture": "2019-04-23T08:20:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 96.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~N1~ ~TR~N1TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 120.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~N2~ ~TR~N2TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 137.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~N3~ ~TR~N3TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567451",
+              "flightNumber": "TR 606",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-23T08:20:00",
+              "arrivalDateTime": "2019-04-23T09:50:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 610~ ~~SIN~04/23/2019 15:25~BKK~04/23/2019 16:55~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": false,
+            "seatLeft": 11,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-23T15:25:00",
+            "lastSegFirstLegDeparture": "2019-04-23T15:25:00",
+            "lastSegLastLegDeparture": "2019-04-23T15:25:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567455",
+              "flightNumber": "TR 610",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-23T15:25:00",
+              "arrivalDateTime": "2019-04-23T16:55:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 604~ ~~SIN~04/23/2019 12:55~BKK~04/23/2019 14:35~~",
+            "departure": "SIN",
+            "arrival": "BKK",
+            "isLimited": true,
+            "seatLeft": 10,
+            "isPromotion": false,
+            "durationInMin": 160,
+            "firstSegFirstLegDeparture": "2019-04-23T12:55:00",
+            "lastSegFirstLegDeparture": "2019-04-23T12:55:00",
+            "lastSegLastLegDeparture": "2019-04-23T12:55:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 86.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 110.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 127.93,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4567449",
+              "flightNumber": "TR 604",
+              "departure": "SIN",
+              "arrival": "BKK",
+              "aircraftType": "A320",
+              "durationInMin": 160,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-23T12:55:00",
+              "arrivalDateTime": "2019-04-23T14:35:00",
+              "departureLtv": 480,
+              "arrivalLtv": 420
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "date": "2019-04-30T00:00:00",
+      "lowestFare": {
+        "currency": "SGD",
+        "amount": 65.5,
+        "discountedAmount": 0.0
+      },
+      "flights": [
+        {
+          "journeyInfo": {
+            "key": "TR~ 605~ ~~BKK~04/30/2019 15:15~SIN~04/30/2019 18:35~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 9,
+            "isPromotion": false,
+            "durationInMin": 140,
+            "firstSegFirstLegDeparture": "2019-04-30T15:15:00",
+            "lastSegFirstLegDeparture": "2019-04-30T15:15:00",
+            "lastSegLastLegDeparture": "2019-04-30T15:15:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 139.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~B1~ ~TR~B1TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 163.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~B2~ ~TR~B2TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 180.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~B3~ ~TR~B3TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568505",
+              "flightNumber": "TR 605",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 140,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-30T15:15:00",
+              "arrivalDateTime": "2019-04-30T18:35:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 617~ ~~BKK~04/30/2019 20:25~SIN~04/30/2019 23:45~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 7,
+            "isPromotion": false,
+            "durationInMin": 140,
+            "firstSegFirstLegDeparture": "2019-04-30T20:25:00",
+            "lastSegFirstLegDeparture": "2019-04-30T20:25:00",
+            "lastSegLastLegDeparture": "2019-04-30T20:25:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 139.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~B1~ ~TR~B1TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 163.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~B2~ ~TR~B2TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 180.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~B3~ ~TR~B3TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568513",
+              "flightNumber": "TR 617",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 140,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-30T20:25:00",
+              "arrivalDateTime": "2019-04-30T23:45:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 869~ ~~DMK~04/30/2019 17:00~SIN~04/30/2019 20:25~~",
+            "departure": "DMK",
+            "arrival": "SIN",
+            "isLimited": false,
+            "seatLeft": 63,
+            "isPromotion": false,
+            "durationInMin": 145,
+            "firstSegFirstLegDeparture": "2019-04-30T17:00:00",
+            "lastSegFirstLegDeparture": "2019-04-30T17:00:00",
+            "lastSegLastLegDeparture": "2019-04-30T17:00:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 139.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~B1~ ~TR~B1TRA~2023~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 163.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~B2~ ~TR~B2TRA~2023~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 180.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~B3~ ~TR~B3TRA~2023~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "price": {
+                "currency": "SGD",
+                "amount": 237.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 98.0
+              },
+              "fareSalesKeys": [
+                "0~J~ ~TR~J0TRA~1000~~0~25~~X"
+              ],
+              "isAvailableForSale": true
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568532",
+              "flightNumber": "TR 869",
+              "departure": "DMK",
+              "arrival": "SIN",
+              "aircraftType": "B787-9",
+              "durationInMin": 145,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-30T17:00:00",
+              "arrivalDateTime": "2019-04-30T20:25:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 609~ ~~BKK~04/30/2019 08:40~SIN~04/30/2019 12:10~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 2,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-30T08:40:00",
+            "lastSegFirstLegDeparture": "2019-04-30T08:40:00",
+            "lastSegLastLegDeparture": "2019-04-30T08:40:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 139.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~B1~ ~TR~B1TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 163.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~B2~ ~TR~B2TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 180.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~B3~ ~TR~B3TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568509",
+              "flightNumber": "TR 609",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A319",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-30T08:40:00",
+              "arrivalDateTime": "2019-04-30T12:10:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 607~ ~~BKK~04/30/2019 10:25~SIN~04/30/2019 13:55~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 8,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-30T10:25:00",
+            "lastSegFirstLegDeparture": "2019-04-30T10:25:00",
+            "lastSegLastLegDeparture": "2019-04-30T10:25:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 139.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~B1~ ~TR~B1TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 163.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~B2~ ~TR~B2TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 180.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~B3~ ~TR~B3TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568507",
+              "flightNumber": "TR 607",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-30T10:25:00",
+              "arrivalDateTime": "2019-04-30T13:55:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 611~ ~~BKK~04/30/2019 17:35~SIN~04/30/2019 21:05~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 9,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-04-30T17:35:00",
+            "lastSegFirstLegDeparture": "2019-04-30T17:35:00",
+            "lastSegLastLegDeparture": "2019-04-30T17:35:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 139.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~B1~ ~TR~B1TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 163.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~B2~ ~TR~B2TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 180.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~B3~ ~TR~B3TRA~2023~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568511",
+              "flightNumber": "TR 611",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-04-30T17:35:00",
+              "arrivalDateTime": "2019-04-30T21:05:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2019-05-02T00:00:00",
+      "lowestFare": {
+        "currency": "SGD",
+        "amount": 45.5,
+        "discountedAmount": 30.0
+      },
+      "flights": [
+        {
+          "journeyInfo": {
+            "key": "TR~ 605~ ~~BKK~05/02/2019 15:15~SIN~05/02/2019 18:35~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 10,
+            "isPromotion": false,
+            "durationInMin": 140,
+            "firstSegFirstLegDeparture": "2019-05-02T15:15:00",
+            "lastSegFirstLegDeparture": "2019-05-02T15:15:00",
+            "lastSegLastLegDeparture": "2019-05-02T15:15:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 89.009999999999991,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~W1~ ~TR~W1TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 113.00999999999999,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~W2~ ~TR~W2TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 130.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~W3~ ~TR~W3TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568791",
+              "flightNumber": "TR 605",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 140,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-05-02T15:15:00",
+              "arrivalDateTime": "2019-05-02T18:35:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 617~ ~~BKK~05/02/2019 20:25~SIN~05/02/2019 23:45~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 6,
+            "isPromotion": false,
+            "durationInMin": 140,
+            "firstSegFirstLegDeparture": "2019-05-02T20:25:00",
+            "lastSegFirstLegDeparture": "2019-05-02T20:25:00",
+            "lastSegLastLegDeparture": "2019-05-02T20:25:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 89.009999999999991,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~W1~ ~TR~W1TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 113.00999999999999,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~W2~ ~TR~W2TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 130.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~W3~ ~TR~W3TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568799",
+              "flightNumber": "TR 617",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 140,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-05-02T20:25:00",
+              "arrivalDateTime": "2019-05-02T23:45:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 869~ ~~DMK~05/02/2019 17:00~SIN~05/02/2019 20:25~~",
+            "departure": "DMK",
+            "arrival": "SIN",
+            "isLimited": false,
+            "seatLeft": 14,
+            "isPromotion": false,
+            "durationInMin": 145,
+            "firstSegFirstLegDeparture": "2019-05-02T17:00:00",
+            "lastSegFirstLegDeparture": "2019-05-02T17:00:00",
+            "lastSegLastLegDeparture": "2019-05-02T17:00:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 67.009999999999991,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~X1~ ~TR~X1TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 91.009999999999991,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~X2~ ~TR~X2TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 108.00999999999999,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~X3~ ~TR~X3TRA~2020~~0~26~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "price": {
+                "currency": "SGD",
+                "amount": 337.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 270.0
+              },
+              "fareSalesKeys": [
+                "0~C~ ~TR~C0TRA~1000~~0~25~~X"
+              ],
+              "isAvailableForSale": true
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568817",
+              "flightNumber": "TR 869",
+              "departure": "DMK",
+              "arrival": "SIN",
+              "aircraftType": "B787-8",
+              "durationInMin": 145,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-05-02T17:00:00",
+              "arrivalDateTime": "2019-05-02T20:25:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 609~ ~~BKK~05/02/2019 08:40~SIN~05/02/2019 12:10~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 10,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-05-02T08:40:00",
+            "lastSegFirstLegDeparture": "2019-05-02T08:40:00",
+            "lastSegLastLegDeparture": "2019-05-02T08:40:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 89.009999999999991,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~W1~ ~TR~W1TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 113.00999999999999,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~W2~ ~TR~W2TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 130.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~W3~ ~TR~W3TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568795",
+              "flightNumber": "TR 609",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-05-02T08:40:00",
+              "arrivalDateTime": "2019-05-02T12:10:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 607~ ~~BKK~05/02/2019 10:25~SIN~05/02/2019 13:55~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 10,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-05-02T10:25:00",
+            "lastSegFirstLegDeparture": "2019-05-02T10:25:00",
+            "lastSegLastLegDeparture": "2019-05-02T10:25:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 89.009999999999991,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~W1~ ~TR~W1TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 113.00999999999999,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~W2~ ~TR~W2TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 130.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~W3~ ~TR~W3TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568793",
+              "flightNumber": "TR 607",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-05-02T10:25:00",
+              "arrivalDateTime": "2019-05-02T13:55:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        },
+        {
+          "journeyInfo": {
+            "key": "TR~ 611~ ~~BKK~05/02/2019 17:35~SIN~05/02/2019 21:05~~",
+            "departure": "BKK",
+            "arrival": "SIN",
+            "isLimited": true,
+            "seatLeft": 10,
+            "isPromotion": false,
+            "durationInMin": 150,
+            "firstSegFirstLegDeparture": "2019-05-02T17:35:00",
+            "lastSegFirstLegDeparture": "2019-05-02T17:35:00",
+            "lastSegLastLegDeparture": "2019-05-02T17:35:00",
+            "isAvailableForSale": true
+          },
+          "fareClasses": [
+            {
+              "name": "Fly",
+              "productCode": "E1",
+              "price": {
+                "currency": "SGD",
+                "amount": 89.009999999999991,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 0.0
+              },
+              "fareSalesKeys": [
+                "0~W1~ ~TR~W1TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBag",
+              "productCode": "E2",
+              "price": {
+                "currency": "SGD",
+                "amount": 113.00999999999999,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 24.0
+              },
+              "fareSalesKeys": [
+                "0~W2~ ~TR~W2TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "FlyBagEat",
+              "productCode": "E3",
+              "price": {
+                "currency": "SGD",
+                "amount": 130.01,
+                "discountAmount": 0.0
+              },
+              "priceDifference": {
+                "currency": "SGD",
+                "amount": 41.0
+              },
+              "fareSalesKeys": [
+                "0~W3~ ~TR~W3TRA~2021~~0~14~~X"
+              ],
+              "isAvailableForSale": true
+            },
+            {
+              "name": "ScootBiz",
+              "productCode": "J",
+              "isAvailableForSale": false
+            }
+          ],
+          "legs": [
+            {
+              "id": "4568797",
+              "flightNumber": "TR 611",
+              "departure": "BKK",
+              "arrival": "SIN",
+              "aircraftType": "A320",
+              "durationInMin": 150,
+              "doesFlightArrivesNextDay": false,
+              "departureDateTime": "2019-05-02T17:35:00",
+              "arrivalDateTime": "2019-05-02T21:05:00",
+              "departureLtv": 420,
+              "arrivalLtv": 480
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

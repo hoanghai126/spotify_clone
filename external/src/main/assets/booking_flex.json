@@ -1,0 +1,106 @@
+{
+  "destinations": [
+    {
+      "flightNumber": "TR8",
+      "departure": "SIN",
+      "arrival": "PER",
+      "departureDateTime": "2020-06-24T12:00:00",
+      "description": "Buy now and SAVE at least 30%! ",
+      "ssrs": [
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/add-onbaggage-0kg.png?sfvrsn=9554f332_14",
+          "ssrCode": "FLX0",
+          "displayName": "None",
+          "ssrDescription": "No Booking Flex",
+          "order": 1,
+          "paxFee": {
+            "feeCode": "FLX0",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 0
+            }
+          },
+          "passengers": [
+            0
+          ]
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/20kg@3x.png?sfvrsn=81888a97_16",
+          "ssrCode": "FLXO",
+          "displayName": "BookFlex",
+          "ssrDescription": "Booking Flexible",
+          "order": 1,
+          "paxFee": {
+            "feeCode": "FLXO",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 20
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/30kg@3x.png?sfvrsn=29a529c5_16",
+          "ssrCode": "FLXM",
+          "displayName": "MultiFlex",
+          "ssrDescription": "Multi Flexible",
+          "order": 2,
+          "paxFee": {
+            "feeCode": "FLXM",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 30
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/35kg@3x.png?sfvrsn=c4990f30_16",
+          "ssrCode": "FLXR",
+          "displayName": "FlexCredit",
+          "ssrDescription": "Flexible Credit",
+          "order": 3,
+          "paxFee": {
+            "feeCode": "FLXR",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 40
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/35kg@3x.png?sfvrsn=c4990f30_16",
+          "ssrCode": "FLXOR",
+          "displayName": "BookFlexCredit",
+          "ssrDescription": "Booking Flexible Credit",
+          "order": 3,
+          "paxFee": {
+            "feeCode": "FLXOR",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 40
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/35kg@3x.png?sfvrsn=c4990f30_16",
+          "ssrCode": "FLXMR",
+          "displayName": "MultiFlexCredit",
+          "ssrDescription": "Multi Flexible Credit",
+          "order": 3,
+          "paxFee": {
+            "feeCode": "FLXMR",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 40
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

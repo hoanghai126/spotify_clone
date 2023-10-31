@@ -1,0 +1,77 @@
+{
+  "destinations": [
+    {
+      "flightNumber": "  13",
+      "departure": "SYD",
+      "arrival": "KUL",
+      "departureDateTime": "2019-04-15T20:45:00",
+      "arrivalDateTime": "2019-04-15T20:45:00",
+      "description": "You have a cabin baggage allowance of 10kg",
+      "ssrs": [
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/add-onbaggage-0kg.png?sfvrsn=9554f332_14",
+          "ssrCode": "BG0",
+          "displayName": "0Kg",
+          "ssrDescription": "Description of 0kg",
+          "order": 1,
+          "paxFee": {
+            "feeCode": "BG0",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 0
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/20kg@3x.png?sfvrsn=81888a97_16",
+          "ssrCode": "BG20",
+          "displayName": "20Kg",
+          "ssrDescription": "Description of 20kg",
+          "order": 1,
+          "paxFee": {
+            "feeCode": "BG20",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 20
+            }
+          },
+          "passengers": [
+            0
+          ]
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/30kg@3x.png?sfvrsn=29a529c5_16",
+          "ssrCode": "BG30",
+          "displayName": "30Kg",
+          "ssrDescription": "Description of 30kg",
+          "order": 2,
+          "paxFee": {
+            "feeCode": "BG30",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 30
+            }
+          }
+        },
+        {
+          "img": "https://flyscootuatcdn.azureedge.net/uat/images/default-source/mbe-add-on/35kg@3x.png?sfvrsn=c4990f30_16",
+          "ssrCode": "BG40",
+          "displayName": "40Kg",
+          "ssrDescription": "Description of 40kg",
+          "order": 3,
+          "paxFee": {
+            "feeCode": "BG40",
+            "serviceCharge": {
+              "chargeType": "ServiceCharge",
+              "currencyCode": "SGD",
+              "amount": 40
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
